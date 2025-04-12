@@ -58,7 +58,7 @@ Place the downloaded `best_model.pth` file into your project’s `models/` direc
 
 ---
 
-### ✅ Prerequisites
+## ✅ Prerequisites
 
 - Python 3.10+
 - Git
@@ -66,7 +66,7 @@ Place the downloaded `best_model.pth` file into your project’s `models/` direc
 
 ---
 
-### 📦 Step-by-Step Setup
+## 📦 Step-by-Step Setup
 
 1. **Clone the Repository**:
    ```bash

@@ -1,7 +1,12 @@
 # Diabetic Retinopathy Detection with Grad-CAM++
 
+![Home Screen](home1.jpg)
+![Home Screen](home2.jpg)
+*Home Page of the Application*
 
-
+---
+![Prediction Page](result.jpg)
+*Prediction Results Page*
 **Diabetic Retinopathy Detection with Grad-CAM++** is a deep learning-based web application for detecting diabetic retinopathy (DR) from retinal images. It emphasizes **transparent AI** by combining high-performance classification using **EfficientNet-B5** with **Grad-CAM++** for visual explainability.
 
 This project is inspired by the need for early, accurate, and explainable DR screening — especially in under-resourced clinical settings.
@@ -37,8 +42,6 @@ This project is inspired by the need for early, accurate, and explainable DR scr
 - 📊 **Evaluation**: Cohen’s Kappa Score, Accuracy
 - 🖼️ **Preprocessing**: Image augmentation, resizing, and normalization
 - 📉 **Feature Analysis**: t-SNE on intermediate features for cluster visualization
-
----
 
 ---
 

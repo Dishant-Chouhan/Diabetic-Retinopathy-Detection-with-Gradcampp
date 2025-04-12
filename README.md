@@ -57,11 +57,6 @@ This project is inspired by the need for early, accurate, and explainable DR scr
 Place the downloaded `best_model.pth` file into your project’s `models/` directory (create if needed) or you can directly save in current directory.
 
 ---
-## 🚀 How to Run This Project
-
-This section will guide you through setting up the project and launching the web application locally.
-
----
 
 ### ✅ Prerequisites
 
@@ -95,12 +90,10 @@ This section will guide you through setting up the project and launching the web
    pip install -r requirements.txt
 
 4. **Download the model**:
-   ```bash
     [Download best_model.pth](https://huggingface.co/thor15/Diabetic-Retinopathy-Detection-with-Gradcampp/blob/main/best_model.pth)
 
 
-5. **Download the model**:
-   4. **Run the Flask Web App**:
+5. **Run the Flask Web App**:
 
    Launch the application locally using:
 

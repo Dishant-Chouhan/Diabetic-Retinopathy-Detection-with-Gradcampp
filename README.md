@@ -14,8 +14,6 @@
 This project is inspired by the need for early, accurate, and explainable DR screening — especially in under-resourced clinical settings.
 
 
-This project is inspired by the need for early, accurate, and explainable DR screening — especially in under-resourced clinical settings.
-
 ---
 
 ## 🌟 Key Features
@@ -56,8 +54,57 @@ This project is inspired by the need for early, accurate, and explainable DR scr
 - 📥 **Pretrained Model Weights** (Hosted on Hugging Face):
   [Download best_model.pth](https://huggingface.co/thor15/Diabetic-Retinopathy-Detection-with-Gradcampp/blob/main/best_model.pth)
 
-Place the downloaded `best_model.pth` file into your project’s `models/` directory (create if needed).
+Place the downloaded `best_model.pth` file into your project’s `models/` directory (create if needed) or you can directly save in current directory.
 
 ---
+## 🚀 How to Run This Project
+
+This section will guide you through setting up the project and launching the web application locally.
+
+---
+
+### ✅ Prerequisites
+
+- Python 3.10+
+- Git
+- pip (Python package installer)
+
+---
+
+### 📦 Step-by-Step Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Dishant-Chouhan/Diabetic-Retinopathy-Detection-with-Gradcampp.git
+   cd Diabetic-Retinopathy-Detection-with-Gradcamppp
+
+2. **(Optional) Create and Activate a Virtual Environment**:
+
+   It's a good practice to use a virtual environment to manage dependencies:
+
+   ```bash
+   python3.10 -m venv venv
+   source venv/bin/activate         # For Linux/macOS
+   venv\Scripts\activate            # For Windows
+   
+3. **Install Required Packages**:
+
+   Make sure you're in the project root directory and run:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Download the model**:
+   ```bash
+    [Download best_model.pth](https://huggingface.co/thor15/Diabetic-Retinopathy-Detection-with-Gradcampp/blob/main/best_model.pth)
+
+
+5. **Download the model**:
+   4. **Run the Flask Web App**:
+
+   Launch the application locally using:
+
+   ```bash
+   python app.py
 
 

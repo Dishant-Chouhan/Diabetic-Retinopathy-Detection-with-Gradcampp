@@ -100,4 +100,4 @@ Place the downloaded `best_model.pth` file into your project’s `models/` direc
    ```bash
    python app.py
 
-
+6.Open your web browser and navigate to `http://127.0.0.1:5000`.

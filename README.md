@@ -100,6 +100,16 @@ Place the downloaded `best_model.pth` file into your project’s `models/` direc
    ```bash
    python app.py
  6. Open your web browser and navigate to `http://127.0.0.1:5000`.
-   
+
+---
+
+## 📄 Related Research
+
+This project is based on methods and findings discussed in the following paper:
+
+> 🔗 [**IEEE Paper: "Explainable Deep Learning Model for Diabetic Retinopathy Detection using Grad-CAM++"**](https://ieeexplore.ieee.org/document/10927966)
+
+> *Note:I contributed to the development and deployment of the model but am not listed as an author in the published paper.*
+
 
   
